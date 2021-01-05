@@ -28,7 +28,8 @@ function draw() {
 }
 
 /**
- * Looks after the colours in the grid
+ * Looks after the colours in the grid. Alters grid tile colour
+ * dependent on mouse X position and subsequent organically generated values
  * 
  * @return void.
  */
@@ -52,7 +53,8 @@ function colorGrid(){
 }
 
 /**
- * Looks after the lines in the grid
+ * Looks after the lines in the grid. Alters line rotation, line length and line colour
+ * dependent on mouse X and Y positions and subsequent organically generated values
  * 
  * @return void.
  */
